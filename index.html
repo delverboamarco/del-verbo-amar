@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Del Verbo Amar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Montserrat', sans-serif; color: #222; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: rgba(255,255,255,0.95);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin-left: 20px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero-content {
+      background: rgba(255,255,255,0.85);
+      padding: 40px;
+      max-width: 700px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .frase {
+      font-style: italic;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      border: 1px solid #222;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    section {
+      padding: 100px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      padding: 25px;
+      text-align: center;
+    }
+
+    footer {
+      background: #f7f7f7;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    footer a { margin: 0 10px; }
+
+    @media (max-width: 768px) {
+      header { flex-direction: column; }
+      nav { margin-top: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <strong>DEL VERBO AMAR</strong>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <h1>Del Verbo Amar</h1>
+    <p class="frase">La historia más grande de amor se llama Jesús.</p>
+    <a class="btn" href="#servicios">Ver portafolio</a>
+    <a class="btn" href="https://www.instagram.com/verboamar_co/" target="_blank">Instagram</a>
+  </div>
+</section>
+
+<section id="nosotros">
+  <h2>Este par somos nosotros</h2>
+  <p style="text-align:center; max-width:700px; margin:20px auto;">
+    Somos Paula y Andrés. Fotografía y video de bodas con sensibilidad, fe y emoción.
+  </p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Sesiones de pareja</h3>
+      <p>Sesiones en locación acordada. Entrega digital.</p>
+    </div>
+    <div class="card">
+      <h3>Boda civil</h3>
+      <p>Cubrimiento de ceremonia y sesión de pareja.</p>
+    </div>
+    <div class="card">
+      <h3>Cubrimiento de bodas</h3>
+      <p>Fotografía y video del día completo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="proceso">
+  <h2>Nuestro proceso</h2>
+  <p style="text-align:center;">Conocernos · Reservar · Minuto a minuto · La boda · La entrega</p>
+</section>
+
+<section id="testimonios">
+  <h2>Testimonios</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">"Los elegiríamos una y mil veces más."</p>
+</section>
+
+<footer id="contacto">
+  <p><strong>¿Saltamos juntos?</strong></p>
+  <a href="https://www.instagram.com/verboamar_co/" target="_blank">Instagram</a>
+  <a href="https://wa.me/573332722614" target="_blank">WhatsApp</a>
+</footer>
+
+</body>
+</html>
