@@ -2,169 +2,176 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Del Verbo Amar</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Montserrat', sans-serif; color: #222; line-height: 1.6; }
-    a { text-decoration: none; color: inherit; }
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    header {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      background: rgba(255,255,255,0.95);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 40px;
-      z-index: 1000;
-    }
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-    nav a {
-      margin-left: 20px;
-      font-size: 14px;
-      letter-spacing: 1px;
-    }
-
-    .hero {
-      height: 100vh;
-      background: url('https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .hero-content {
-      background: rgba(255,255,255,0.85);
-      padding: 40px;
-      max-width: 700px;
-    }
-
-    h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
-    .frase {
-      font-style: italic;
-      margin-bottom: 25px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 25px;
-      border: 1px solid #222;
-      margin: 5px;
-      font-size: 14px;
-    }
-
-    section {
-      padding: 100px 40px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 36px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      margin-top: 40px;
-    }
-
-    .card {
-      border: 1px solid #eee;
-      padding: 25px;
-      text-align: center;
-    }
-
-    footer {
-      background: #f7f7f7;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    footer a { margin: 0 10px; }
-
-    @media (max-width: 768px) {
-      header { flex-direction: column; }
-      nav { margin-top: 10px; }
-    }
-  </style>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-  <strong>DEL VERBO AMAR</strong>
-  <nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#proceso">Proceso</a>
-    <a href="#testimonios">Testimonios</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-</header>
-
-<section class="hero" id="inicio">
-  <div class="hero-content">
-    <h1>Del Verbo Amar</h1>
-    <p class="frase">La historia más grande de amor se llama Jesús.</p>
-    <a class="btn" href="#servicios">Ver portafolio</a>
-    <a class="btn" href="https://www.instagram.com/verboamar_co/" target="_blank">Instagram</a>
-  </div>
-</section>
-
-<section id="nosotros">
-  <h2>Este par somos nosotros</h2>
-  <p style="text-align:center; max-width:700px; margin:20px auto;">
-    Somos Paula y Andrés. Fotografía y video de bodas con sensibilidad, fe y emoción.
+<!-- HERO -->
+<section class="hero">
+  <img src="logo-principal.png" class="logo" alt="Del Verbo Amar">
+  <h1>
+    En Él estaba la vida,<br>
+    y la vida era la luz de los hombres.
+  </h1>
+  <p class="subtitle">
+    Reír, llorar, abrazar, bailar,<br>
+    <strong>del verbo Amar.</strong>
   </p>
 </section>
 
-<section id="servicios">
-  <h2>Servicios</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Sesiones de pareja</h3>
-      <p>Sesiones en locación acordada. Entrega digital.</p>
-    </div>
-    <div class="card">
-      <h3>Boda civil</h3>
-      <p>Cubrimiento de ceremonia y sesión de pareja.</p>
-    </div>
-    <div class="card">
-      <h3>Cubrimiento de bodas</h3>
-      <p>Fotografía y video del día completo.</p>
-    </div>
+<!-- QUIÉNES SOMOS -->
+<section class="section">
+  <h2>¡HOLA!<br>ESTE PAR SOMOS NOSOTROS.</h2>
+  <p class="small">WRITTEN & DIRECTED BY JESUS</p>
+
+  <div class="bio">
+    <p>
+      <strong>ANDRÉS</strong><br>
+      Economista de profesión y videógrafo de corazón. También es quien lleva las cuentas.
+      Gurú en paciencia y solidaridad. Es experto en hacer combinaciones extrañas de comida
+      pero que al final, resultan bien.
+    </p>
+
+    <p>
+      <strong>PAULA</strong><br>
+      Magister en Fotografía y video de boda en Too Many Flash, España.
+      El ojo creativo detrás de cada foto y video.
+      Consentidora de perros profesional.
+      Especialista en saberse (casi) todas las canciones.
+    </p>
   </div>
 </section>
 
-<section id="proceso">
+<!-- NUESTRO PROCESO -->
+<section class="section light">
   <h2>Nuestro proceso</h2>
-  <p style="text-align:center;">Conocernos · Reservar · Minuto a minuto · La boda · La entrega</p>
+
+  <ol class="process">
+    <li><strong>CONOCERNOS</strong><br>Veámonos y tomemos un café o agendemos una videollamada.</li>
+    <li><strong>RESERVAR LA FECHA</strong><br>Firma el contrato y reserva con el 30% del valor del mismo.</li>
+    <li><strong>MINUTO A MINUTO</strong><br>Creamos un grupo de WhatsApp para organizar toda la información.</li>
+    <li><strong>LA BODA</strong><br>Ustedes a disfrutar, nosotros nos encargamos del resto.</li>
+    <li><strong>LA ENTREGA</strong><br>
+      Fotos en aprox. 5 semanas y video en 10 semanas después de elegir la música.
+    </li>
+    <li><strong>EL ENVÍO</strong><br>
+      Caja de madera + USB + fotos impresas.<br><br>
+      <em>
+        La galería online estará disponible por 1 mes.<br>
+        Transporte incluido en Bogotá y Sabana (60 km / 2 peajes).<br>
+        Bodas de más de 160 invitados requieren segundo fotógrafo.
+      </em>
+    </li>
+  </ol>
 </section>
 
-<section id="testimonios">
+<!-- PAQUETES -->
+<section class="section">
+  <h2>Experiencias</h2>
+
+  <div class="packages">
+
+    <div class="package">
+      <h3>NEW YORK</h3>
+      <p class="price">550.000 COP</p>
+      <p>
+        Sesión de pareja · 60 minutos · 1 locación<br>
+        80 fotografías · galería digital
+      </p>
+    </div>
+
+    <div class="package">
+      <h3>TOKIO</h3>
+      <p class="price">1.100.000 COP</p>
+      <p>
+        Boda civil · 3 horas<br>
+        150 fotos · USB + caja de madera · 10 impresiones
+      </p>
+    </div>
+
+    <div class="package">
+      <h3>AMALFI</h3>
+      <p class="price">4.000.000 COP</p>
+      <p>
+        Foto + video · 6 horas<br>
+        300 fotos · video 8–10 min + clip redes
+      </p>
+    </div>
+
+    <div class="package">
+      <h3>ATENAS</h3>
+      <p class="price">5.600.000 COP</p>
+      <p>
+        Foto + video · 8 horas + Drone<br>
+        400 fotos · video 10–12 min + clip
+      </p>
+    </div>
+
+    <div class="package">
+      <h3>CASABLANCA</h3>
+      <p class="price">6.750.000 COP</p>
+      <p>
+        Foto + video · 10 horas + Drone<br>
+        500 fotos · video 12–15 min · equipo completo
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICIOS EXTRA -->
+<section class="section light">
+  <h2>Servicios extra</h2>
+  <ul class="extras">
+    <li>Segundo fotógrafo — 1.000.000 COP</li>
+    <li>Drone — 300.000 COP</li>
+    <li>Cámara Instax — 100.000 COP (sin papel)</li>
+    <li>Hora extra foto o video — 300.000 COP</li>
+  </ul>
+</section>
+
+<!-- VIDEO -->
+<section class="section">
+  <h2>Nuestros videos</h2>
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/BbHg0RXLu1M"
+      frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section light">
   <h2>Testimonios</h2>
-  <p style="text-align:center; max-width:700px; margin:auto;">"Los elegiríamos una y mil veces más."</p>
+
+  <blockquote>
+    “Gracias por hacer de ese día memorias imborrables.”<br>
+    <strong>Sebastián & Paula</strong> — Pasto, Nariño
+  </blockquote>
+
+  <blockquote>
+    “No solo fotógrafos, cómplices de nuestra felicidad.”<br>
+    <strong>Henrick & Valentina</strong> — Bogotá / Alemania
+  </blockquote>
+
+  <blockquote>
+    “I completely LOVE THEM.”<br>
+    <strong>Jason & Melissa</strong> — Bogotá / USA
+  </blockquote>
 </section>
 
-<footer id="contacto">
-  <p><strong>¿Saltamos juntos?</strong></p>
-  <a href="https://www.instagram.com/verboamar_co/" target="_blank">Instagram</a>
-  <a href="https://wa.me/573332722614" target="_blank">WhatsApp</a>
-</footer>
+<!-- CIERRE -->
+<section class="closing">
+  <h2>¿Saltamos juntos?</h2>
+  <a href="mailto:delverboamar@gmail.com" class="btn">Contactarnos</a>
+</section>
 
 </body>
 </html>
